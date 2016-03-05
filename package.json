@@ -1,0 +1,56 @@
+{
+  "name": "adm",
+  "version": "0.1.0",
+  "description": "An application development and deployment manager.",
+  "homepage": "",
+  "author": {
+    "name": "taoyuan",
+    "email": "towyuan@outlook.com",
+    "url": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taoyuan/adm.git"
+  },
+  "keywords": [
+    "app",
+    "development",
+    "deployment",
+    "manager",
+    "node"
+  ],
+  "dependencies": {
+    "adm-logger": "^0.1.0",
+    "async": "^1.5.2",
+    "bluebird": "^3.3.3",
+    "debug": "^2.2.0",
+    "lodash": "^4.5.1",
+    "needs": "^1.0.2",
+    "node-inspector": "^0.12.7",
+    "yargs": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.10.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
