@@ -19,7 +19,14 @@
     "manager",
     "node"
   ],
+  "bin": {
+    "adm": "./bin/adm.js"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
   "dependencies": {
+    "adm-build": "^0.1.0",
     "adm-logger": "^0.1.0",
     "async": "^1.5.2",
     "bluebird": "^3.3.3",
