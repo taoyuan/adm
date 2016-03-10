@@ -31,11 +31,12 @@
     "async": "^1.5.2",
     "bluebird": "^3.3.3",
     "debug": "^2.2.0",
-    "handlebars": "^4.0.5",
+    "fs-extra": "^0.26.5",
     "lodash": "^4.5.1",
     "needs": "^1.0.2",
     "node-inspector": "^0.12.7",
     "shelljs": "^0.6.0",
+    "yamljs": "^0.2.6",
     "yargs": "^4.1.0"
   },
   "devDependencies": {
