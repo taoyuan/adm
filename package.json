@@ -34,6 +34,7 @@
     "fs-extra": "^0.26.5",
     "lodash": "^4.5.1",
     "needs": "^1.0.2",
+    "node-dir": "^0.1.11",
     "node-inspector": "^0.12.7",
     "shelljs": "^0.6.0",
     "yamljs": "^0.2.6",
