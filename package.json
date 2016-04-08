@@ -1,6 +1,6 @@
 {
   "name": "adm",
-  "version": "0.2.1",
+  "version": "0.2.0",
   "description": "An application development and deployment manager.",
   "homepage": "",
   "author": {
@@ -40,29 +40,6 @@
     "shelljs": "^0.6.0",
     "yamljs": "^0.2.7",
     "yargs": "^4.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^2.7.0",
-    "eslint-config-xo-space": "^0.11.0",
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^2.0.0",
-    "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-line-ending-corrector": "^1.0.1",
-    "gulp-istanbul": "^0.10.4",
-    "gulp-mocha": "^2.2.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-nsp": "^2.4.0",
-    "gulp-coveralls": "^0.1.4"
-  },
-  "eslintConfig": {
-    "extends": "xo-space",
-    "env": {
-      "mocha": true
-    }
-  },
-  "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
   },
   "license": "MIT"
 }
