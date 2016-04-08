@@ -26,8 +26,8 @@
     "registry": "http://registry.npmjs.com"
   },
   "dependencies": {
-    "adm-build": "^0.2.0",
-    "adm-logger": "^0.1.0",
+    "adm-build": "latest",
+    "adm-logger": "latest",
     "async": "^2.0.0-rc.2",
     "bluebird": "^3.3.4",
     "chalk": "^1.1.3",
