@@ -1,4 +1,7 @@
 # adm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/taoyuan/adm.svg)](https://greenkeeper.io/)
+
 > An application development and deployment manager.
 
 ## Installation
